@@ -1,0 +1,136 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    background-color: #f0f0f0;
+    /* border: black solid 2px; */
+  }
+  body{
+    background-color: #f0f0f0;
+  }
+  .posts-container {
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    /* border: black solid 2px; */
+  }
+  
+  .sidebar{
+    background-color: #fef8f8;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #posts {
+    margin-top: 20px;
+    /* border: black solid 2px; */
+  }
+  
+  .post {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    /* border: black solid 2px; */
+  }
+  
+  .post h3 {
+    margin-left: 20px;
+    font-size: 18px;
+    color: #333;
+    /* text-align: center; */
+    /* border: black solid 2px; */
+  }
+  .post img{
+    margin-left: 20px;
+    max-width: 500px;
+    max-height: 500px;
+  }
+  
+  .post p {
+    margin-left: 20px;
+
+    /* margin: 10px 0; */
+    color: #555;
+  }
+  
+  .post img {
+    margin-left: 20px;
+    /* max-width: 100%; */
+    height: auto;
+    margin-bottom: 10px;
+    /* border: black solid 2px; */
+    width: auto;
+  }
+  .post button{
+    margin-left: 20px;
+    text-decoration: none;
+    border: none;
+    /* background-color:#a7a7a7; */
+    border-radius: 5px;
+    /* margin-left: 5px; */
+    margin-right: 20px;
+  }
+  .post button:hover{
+    background-color:#a7a7a7;
+    
+  }
+  
+  .post-footer {
+    margin-left: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #888;
+  }
+  
+  .comments-container {
+    margin-top: 10px;
+    color: #666;
+  }
+  
+  .comments-container p {
+    /* margin: 5px 0; */
+    margin-left: 20px;
+  }
+  
+  .sidebar {
+    /* flex: 1; */
+    padding-left: 20px;
+    margin-top: 85px;
+    margin-left: 20px;
+    height: 300px;
+    width: 500px;
+    /* border: black solid 2px; */
+  }
+  
+  .sidebar form {
+    margin-top: 20px;
+    /* margin-left: 20px; */
+  }
+  
+  .sidebar input[type="text"],
+  .sidebar input[type="file"] {
+    width: 90%;
+    margin-top: 20px;
+    /* padding: 20px; */
+        /* margin-left: 20px; */
+    margin-bottom: 10px;
+  }
+  
+  .sidebar button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sidebar button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
